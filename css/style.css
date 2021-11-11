@@ -45,7 +45,7 @@ body {
 .header-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--nav-color);
 }
@@ -56,7 +56,7 @@ body {
 .header-tel-link{
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
@@ -69,20 +69,86 @@ body {
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: #000000;
 }
 
 .button {
+    font-family: inherit;
     font-weight: bold;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     color: #FFFFFF;
     background-color: var(--accent-color);
 }
 
 /* Наши преимущества */
 
+.benefits-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.benefits-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+
+}
+
+ /* Чем мы занимаемся  */
+
+ .about-title {
+     font-weight: 700d;
+     font-size: 36px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     color: var(--title-color);
+ }
+
+ /* Наша команда */
+
+ .person-title{
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     color: var(--title-color);
+ }
+
+ .person-short-title {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.19x;
+     letter-spacing: 0.03em;
+     color: var(--title-color);
+ }
+
+ .person-text {
+     font-size: 16px;
+     line-height: 1.19x; 
+     letter-spacing: 0.03em;
+
+ }
+ /* footer */
+
+ .footer-link {
+     font-size: 14px;
+     line-height: 1.71;
+     letter-spacing: 0.03em;
+     color: rgba(255, 255, 255, 0.6);
+     background-color: #212121;
+ }
+
+ .footer-link:hover {
+     color: #FFFFFF;
+     ;
+ }
 
